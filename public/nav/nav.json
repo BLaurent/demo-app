@@ -1,0 +1,31 @@
+[
+  {
+    "label": "Local Microapp",
+    "icon": "fa-wrench",
+    "path": "/#/",
+    "badge": {"status":"important", "count":22},
+    "items": [
+      {
+        "label":"Subnav 1",
+        "path":"/#/subnav1",
+        "badge": {"status":"warning", "count":3}
+      },
+			{
+				"label":"Subnav 2",
+				"path":"/#/subnav2",
+				"badge": {"status":"info", "count":34}
+			},
+      {
+        "label":"Subnav 3",
+        "path":"/?chromeless=true/#/subnav3",
+        "target": "_blank",
+        "badge": {"status":"error", "count":2}
+      },
+      {
+        "label":"Open a Modal",
+        "path":"javascript:window.openMymodal()",
+        "badge": {"status":"info", "count":1}
+      }
+    ]
+  }
+]

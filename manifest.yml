@@ -1,0 +1,13 @@
+---
+applications:
+  - name: ui-microapp
+    host: ui-microapp-dev
+    domain: grc-apps.svc.ice.ge.com
+    timeout: 160
+    buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
+    memory: 128M
+    disk_quota: 128M
+    command: node app.js
+
+    env:
+      stubProxyConfig: https://ui-stub-service.grc-apps.svc.ice.ge.com

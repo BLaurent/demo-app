@@ -1,0 +1,6 @@
+// module-specific styles go here
+.link--unavailable {
+       pointer-events: none !important;
+       cursor: default;
+       text-decoration: line-through;
+}

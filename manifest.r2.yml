@@ -1,0 +1,15 @@
+---
+applications:
+  - name: ui-foundry-microapp
+    host: ui-foundry-microapp
+    domain: run.aws-usw02-pr.ice.predix.io
+    timeout: 160
+    buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
+    memory: 128M
+    disk_quota: 128M
+    command: node app.js
+
+    env:
+      stubProxyConfig: https://ui-stub-service-dev.run.aws-usw02-pr.ice.predix.io
+      DEBUG: "*"
+

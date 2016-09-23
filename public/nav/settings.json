@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Settings",
+    "path": "/#/settings"
+  },
+  {
+    "label": "Help",
+    "path": "https://www.predix.io/resources"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "name": "microapp",
+  "version": "0.0.1",
+  "repository": "https://github.build.ge.com/demos/microapp",
+  "private": true,
+  "engines": {
+    "node": "^5.11.1",
+    "npm": "^3.8.6"
+  },
+  "main": "app.js",
+  "jspm": {
+    "directories": {
+      "baseURL": "public"
+    },
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.0",
+      "angular-mocks": "github:angular/bower-angular-mocks@^1.4.0",
+      "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
+      "angular-ui/bootstrap": "npm:angular-ui-bootstrap@^1.2.5",
+      "babel": "npm:babel-core@^5.1.13",
+      "d3": "github:d3/d3@^3.5.6",
+      "hubs/ng-apphub-service": "ge:hubs/ng-apphub-service@master",
+      "lodash": "npm:lodash@^4.4.0",
+      "moment": "github:moment/moment@^2.10.3",
+      "restangular": "github:mgonto/restangular@^1.5.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "keywords": [
+    "predix-app"
+  ],
+  "devDependencies": {
+    "cdnizer": "^1.1.6",
+    "del": "^2.2.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.14.0",
+    "fs-extra": "^0.30.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.0",
+    "gulp-bower": "0.0.11",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-develop-server": "^0.5.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-ngdocs": "^0.2.13",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-task-listing": "^1.0.1",
+    "jasmine-core": "^2.3.4",
+    "json-proxy": "^0.9.1",
+    "jspm": "^0.16.15",
+    "karma": "^0.13.15",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^2.0.2",
+    "karma-junit-reporter": "^0.3.2",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-systemjs": "^0.9.0",
+    "karma-verbose-reporter": "^0.0.3",
+    "minimist": "^1.2.0",
+    "mocha": "^2.4.5",
+    "moment": "^2.14.1",
+    "node-dir": "^0.1.15",
+    "node-inspector": "^0.12.7",
+    "node-sass": "^3.8.0",
+    "path": "^0.12.7",
+    "phantomjs": "^1.9.18",
+    "protractor": "^3.2.0",
+    "request": "^2.65.0",
+    "require-dir": "^0.3.0",
+    "rimraf": "^2.4.3",
+    "run-sequence": "^1.1.4",
+    "s3": "^4.4.0",
+    "supertest": "^1.2.0",
+    "systemjs-builder": "^0.14.11"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-request-proxy": "^2.0.0",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "serve-static": "^1.10.2"
+  },
+  "scripts": {}
+}

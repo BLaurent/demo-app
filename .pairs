@@ -1,0 +1,10 @@
+pairs:
+  pb: Pete Butler; pete.butler
+  nk: Namratha Keshava; namratha
+  jd: Jerry Dy; jerry.dy
+
+email:
+  prefix: pair
+  domain: ge.com
+
+global: true

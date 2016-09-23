@@ -1,0 +1,19 @@
+<px-card header-text="Realtime Chart" icon="fa-bar-chart">
+
+  <px-vis-timeseries id="windturbine-voltage-chart" height="300" width="800" prevent-resize="true"
+                     selection-type="xAxis"
+                     enable-tooltip="true" register-location="side" include-all-series="true" disable-navigator="true"
+                     x-axis-type="time" y-axis-type="linear"
+                     options='{
+                      "xAxisConfig": {
+                        "title": "Time",
+                        "tickFormat": "%H:%M:%S"
+                      }
+                     }'
+                     translate-amt="{{vm.translateAmt}}"
+                     series-config="{{vm.seriesConfig}}"
+                     range="{{vm.range}}"
+                     chart-data="{{vm.seriesData}}">
+  </px-vis-timeseries>
+
+</px-card>

@@ -1,0 +1,25 @@
+[
+  {
+    "label": "Analytics",
+    "icon": "fa-bar-chart",
+    "path": "/",
+    "badge": {
+      "status": "info",
+      "count": "12"
+    },
+    "items": [
+      {
+        "label": "Details",
+        "path": "/#/detail/3",
+        "badge": {
+          "status": "info",
+          "count": "12"
+        }
+      }
+    ]
+  }
+]
+
+
+
+

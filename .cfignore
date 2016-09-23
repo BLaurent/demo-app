@@ -1,0 +1,10 @@
+node_modules
+coverage
+junit
+.editorconfig
+.gitignore
+.jshintrc
+.gulpfile
+karma.conf.js
+package.json
+readme.md
